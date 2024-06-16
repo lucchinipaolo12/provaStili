@@ -48,4 +48,18 @@
     </div>
 
   </body>
+  <body>
+  <header>
+    <nav>
+      <ul>
+        {% for item in site.nav %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+</body>
 </html>
