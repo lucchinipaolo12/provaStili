@@ -3,3 +3,12 @@ description: Questa è una prova.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-architect
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+  - title: Contact
+    url: /contact
